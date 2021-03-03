@@ -7,7 +7,7 @@ import HomeContainer from '../containers/HomeContainer';
 const Home = ({ user }) => {
   return (
     <MainLayout>
-      <p>V2</p>
+      <p>V2.1</p>
       <div className="container-wrapper">{!user ? <UserNotLogged /> : <HomeContainer />}</div>
       <style jsx>
         {`
