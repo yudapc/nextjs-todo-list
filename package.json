@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "yarn build && next export",
     "lint": "eslint --ext .jsx,.js ./",
     "start": "next start",
     "pre-commit": "yarn lint",
